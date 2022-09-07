@@ -1,4 +1,4 @@
-//const { template } = require('@babel/core')
+const { template } = require('@babel/core')
 
 function fillStartWord(startWord, word) {
   //code here
@@ -16,4 +16,5 @@ function fillStartWord(startWord, word) {
   }
   
 }
-//module.exports = fillStartWord
+
+module.exports = fillStartWord
